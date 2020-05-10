@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         WOS Download Helper
+// @namespace    https://github.com/einverne/userscripts
+// @version      0.1
+// @description  This is a debug script to load userscripts from local file system. NOTICE, you need to turn on Allow access to file URLs to @require local file https://www.tampermonkey.net/documentation.php
+// @author       Ein Verne
+// @match        http*://*webofknowledge.com
+// @include *
+// ==/UserScript==
+
 (function() {
   "use strict";
   let BATCH_COUNT = 500;
